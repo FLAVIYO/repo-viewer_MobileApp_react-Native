@@ -5,11 +5,12 @@ This is a simple React Native application that allows you to view GitHub reposit
 1. **Clone the repository:**
 
    ```bash
-   git clone https://
+   git clone https://github.com/FLAVIYO/repo-viewer_MobileApp_react-Native.git
 
 
 2. **Install the dependencies:**
 
+   ```bash
     npm install  
 
 
@@ -17,7 +18,8 @@ This is a simple React Native application that allows you to view GitHub reposit
 <h3>Usage</h3>
 
 1. Start the application:
-npx expo start
+   ```bash
+   npx expo start
 
 2. Open the application on your iOS or Android device using the Expo Go app or in an emulator.
 
