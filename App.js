@@ -16,7 +16,7 @@ const App = () => {
     try {
       const response = await fetch('https://api.github.com/user/repos', {
         headers: {
-          Authorization: 'Bearer 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',
+          Authorization: 'Bearer ADD YOUR ACCESS_TOKEN',
         },
       });
       const repositories = await response.json();
@@ -26,7 +26,7 @@ const App = () => {
           try {
             const commitsResponse = await fetch(`https://api.github.com/repos/${repo.owner.login}/${repo.name}/commits`, {
               headers: {
-                Authorization: 'Bearer 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',
+                Authorization: 'Bearer ADD YOUR ACCESS_TOKEN',
               },
             });
             const commits = await commitsResponse.json();
